@@ -1,0 +1,47 @@
+body {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.owner {
+    font-size: 2em;
+    color: rgb(173, 216, 230); /* Light cyan */
+    text-shadow: 0 0 5px rgba(173, 216, 230, 0.8), 0 0 10px rgba(173, 216, 230, 0.8);
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid green; /* Green border */
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+.result {
+    font-size: 2em;
+    color: green; /* Green text */
+    text-shadow: 0 0 5px green, 0 0 10px green; /* Neon effect */
+}
